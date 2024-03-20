@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest 2 - Formulário</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <script src="./src/js/index.js" defer></script>
+
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="conteudo">
+                <h1>FICOU COM DÚVIDA?<h1>
+                <h1>NOS MANDE UMA MENSAGEM!</h1>
+                <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos
+                    de 24h.</p>
+            </div>
+            teste
+            <form class="formulario">
+                <input type="text" name="name" id="name" class="input-form" placeholder="Nome completo*" value="">
+                <p class="campo-obrigatorio">campo obrigatório</p>
+                <input type="email" name="email" id="email" class="input-form" placeholder="Email*" value="" >
+                <p class="campo-obrigatorio">campo obrigatório</p>
+                <input type="number" name="number" id="number" class="input-form" placeholder="Telefone*" value="" >
+                <p class="campo-obrigatorio">campo obrigatório</p>
+                <textarea name="textarea" id="textarea" cols="30" rows="10" class="input-form" placeholder="Mensagem*" value="" ></textarea>
+                <p class="campo-obrigatorio-textArea">campo obrigatório</p>
+                <p id="campo-obrigatorio">*campos obrigatórios</p>
+                <button type="submit" id="submit-btn">Enviar</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
