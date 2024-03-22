@@ -16,20 +16,28 @@
         <div class="container">
             <div class="conteudo">
                 <h1>FICOU COM DÚVIDA?<h1>
-                <h1>NOS MANDE UMA MENSAGEM!</h1>
-                <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos
-                    de 24h.</p>
+                        <h1>NOS MANDE UMA MENSAGEM!</h1>
+                        <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato
+                            em menos de 24h.</p>
             </div>
-            teste
-            <form class="formulario">
-                <input type="text" name="name" id="name" class="input-form" placeholder="Nome completo*" value="">
-                <p class="campo-obrigatorio">campo obrigatório</p>
-                <input type="email" name="email" id="email" class="input-form" placeholder="Email*" value="" >
-                <p class="campo-obrigatorio">campo obrigatório</p>
-                <input type="number" name="number" id="number" class="input-form" placeholder="Telefone*" value="" >
-                <p class="campo-obrigatorio">campo obrigatório</p>
-                <textarea name="textarea" id="textarea" cols="30" rows="10" class="input-form" placeholder="Mensagem*" value="" ></textarea>
-                <p class="campo-obrigatorio-textArea">campo obrigatório</p>
+            <form id="form" class="form">
+                <div class="form-control">
+                    <input type="text" name="name" id="username"  placeholder="Nome completo*" value="">
+                    <section></section>
+                </div>
+                <div class="form-control">
+                    <input type="email" name="em*campo obrigatórioil" id="email" placeholder="Email*" value="">
+                    <section></section>
+                </div>
+                <div class="form-control">
+                    <input type="tel" name="phone" id="phone" placeholder="Telefone*" value="">
+                    <section></section>
+                </div>
+                <div class="form-control">
+                    <textarea name="textarea" id="text-area"  cols="30" rows="10" 
+                        placeholder="Mensagem*" value=""></textarea>
+                    <section></section>
+                </div>
                 <p id="campo-obrigatorio">*campos obrigatórios</p>
                 <button type="submit" id="submit-btn">Enviar</button>
             </form>
